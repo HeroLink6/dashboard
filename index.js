@@ -10,13 +10,6 @@ client.login(config.discord.token);
 //category for commands
 const moderation = require("./Categorys/moderation");
 const community = require("./Categorys/community");
-const leveling = require("./Categorys/leveling");
-const warnsys = require("./Categorys/warnsys");
-const ecosys = require("./Categorys/economy");
-const mail = require("./Categorys/modmail");
-const nsfw = require("./Categorys/nsfw");
-const other = require("./Categorys/other");
-const sys = require("./Categorys/systems");
 
 //Setups
 const welcomeSetup = require('./Systems/welcome');
@@ -149,11 +142,11 @@ const LOCALES = require("./Locales/locales");
                     }
                 },
             },
-            websiteName: "Nexus",
-            websiteTitle: "NEXUS - imagine a free discord bot",
+            websiteName: "Blue Diamond",
+            websiteTitle: "Blue Diamond - Imagine a free discord bot",
             dashboardURL: config.dbd.domain,
-            supporteMail: "toowake@proton.me",
-            createdBy: "Nexus Development",
+            supporteMail: "the.haseltons@gmail.com",
+            createdBy: "The Blue Diamond Team",
             icons: {
                 favicon: "https://cdn.discordapp.com/attachments/1147892533855260823/1147934381491634346/20230903_183644.png",
                 noGuildIcon: "https://unlimitedworld.de/attachments/discord-mark-blue-png.64362/",
@@ -167,9 +160,9 @@ const LOCALES = require("./Locales/locales");
             },
             index: {
                 card: {
-                    category: "Nexus",
-                    title: "NEXUS - imagine a free discord bot",
-                    description: "NEXUS Panel",
+                    category: "Blue Diamond",
+                    title: "Blue Diamond - imagine a free discord bot",
+                    description: "Blue Diamond Panel",
                     image: "https://cdn.discordapp.com/attachments/1147892533855260823/1147934381491634346/20230903_183644.png",
                     link: {
                         enabled: true,
@@ -179,7 +172,7 @@ const LOCALES = require("./Locales/locales");
                  premium: {
                     enabled: true,
                     card: {
-                        title: "Want to suport this project?",
+                        title: "Want to support this project?",
                         description: "You can become premium!",
                         bgImage: "https://cdn.discordapp.com/attachments/1112743789782638602/1147933261843157013/20230903_183622.png",
                         button: {
@@ -191,14 +184,14 @@ const LOCALES = require("./Locales/locales");
                 feeds: {
                     category: "feeds",
                     title: "Feed",
-                    description: "NEXUS Panel is still in progress. For questions and suggestions join our discord server!",
-                    footer: "NEXUS"
+                    description: "Blue Diamond Panel is still in progress. For questions and suggestions join our discord server!",
+                    footer: "Blue Diamond"
                 },
                 information: {
                     category: "information",
                     title: "Information",
-                    description: "Nexus is the most powerful bot on discord. Its 100% free with no ads etc. Lets make paid bots useless.",
-                    footer: "NEXUS"
+                    description: "Blue Diamond is the most powerful bot on discord. Its 100% free with no ads etc. Lets make paid bots useless.",
+                    footer: "Blue Diamond"
                 },
                 graph: {
                     enabled: true,
@@ -211,7 +204,7 @@ const LOCALES = require("./Locales/locales");
             },
             footer: {
                 replaceDefault: true,
-                text: "Made by Nexus Development"
+                text: "Made by The Blue Diamond Team"
             },
             sweetalert: {
                 errors: {},
@@ -235,13 +228,6 @@ const LOCALES = require("./Locales/locales");
             commands: [
                 moderation,
                 community,
-                leveling,
-                warnsys,
-                ecosys,
-                mail, 
-                sys,
-                nsfw,
-                other,
             ]}),
             settings: [
                 welcomeSetup,
