@@ -1,19 +1,19 @@
 {
     "database": {
-        "mongose": ""
+        "mongose": "mongodb+srv://628347:ZeldaMaster699@cluster0.4ipyans.mongodb.net/?retryWrites=true&w=majority"
     },
     "discord": {
-        "token": "",
+        "token": "MTE0NDc2MzY3ODA2ODA0Nzk0NA.GylQ5B.jLAZ2GI2Z9nQGRegel0uFoZGNSkAClX5Vfvo5k",
         "client": {
-            "id": "",
-            "secret": ""
+            "id": "1144763678068047944",
+            "secret": "jUGdUrSyi71XpTp-Rr2HajJMn9-a7IgV"
         }
     },
     "dbd": {
         "port": 80,
-        "domain": "http://localhost",
+        "domain": "https://bluediamondbotdashboard",
         "redirectUri": "/discord/callback",
-        "license": "",
-        "ownerIDs": ["972509807988846634","998540329995227266","931870926797160538"]
+        "license": "de11023a-442e-4f8d-aea5-4f9e2cc8a79c",
+        "ownerIDs": ["440205899898814496"]
     }
 }
